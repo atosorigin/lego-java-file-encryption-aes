@@ -19,6 +19,7 @@ Change this in the code or manually move the files after.
 The salt and intialisation vectors are saved into the encrypted file as both values can be public, only the password should be private. If you prefer to save these elsewhere, modify the two code blocks:
 
 In encrypt:
+
                 fileOutputStream.write(salt);
                 fileOutputStream.write(iv);
 
