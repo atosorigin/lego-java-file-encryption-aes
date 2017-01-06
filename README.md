@@ -2,14 +2,17 @@
 Lego Brick for Java based AES file encryption taking in a raw file and password.
 
 To use, simply inject the FileEncryption class into your class and run 
-  .encrypt(file, password) to encrypt, or
-  .decrypt(file, password) to decrypt.
+  
+    .encrypt(file, password) to encrypt, or
+    .decrypt(file, password) to decrypt.
   
 Remember to change the package in the code to where you are keeping the files.
   
 By default, encrypted and decrypted files are saved to 
-  {user_directory}/encrypted
-  {user_directory}/decrypted
+  
+    {user_directory}/encrypted
+    {user_directory}/decrypted
+
 Change this in the code or manually move the files after.
 
                 Path encryptedPath = Paths.get(homeDirectory + "/encrypted");
