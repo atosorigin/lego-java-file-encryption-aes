@@ -5,6 +5,8 @@ To use, simply inject the FileEncryption class into your class and run
   .encrypt(file, password) to encrypt, or
   .decrypt(file, password) to decrypt.
   
+Remember to change the package in the code to where you are keeping the files.
+  
 By default, encrypted and decrypted files are saved to 
   {user_directory}/encrypted
   {user_directory}/decrypted
